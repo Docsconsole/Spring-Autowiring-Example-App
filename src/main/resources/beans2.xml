@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="aSpringBean" class="com.docsconsole.tutorials.byconstructor.xml.constructor.ASpringBean" autowire="constructor">
+		<property name="aSpringBeanName" value="aSpringBean"></property>
+	</bean>
+
+	<bean id="bSpringBean2" class="com.docsconsole.tutorials.byconstructor.xml.constructor.BSpringBean" >
+		<property name="bSpringBeanName" value="bSpringBean2"></property>
+	</bean>
+
+</beans>
